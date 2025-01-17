@@ -23,7 +23,7 @@ export class MenuCard {
 
         const cardInformation = document.createElement('div')
         cardInformation.classList.add('card-info')
-        cardInformation.innerHTML = `<h2>${this.title}</h2><p>${this.discription}</p><span>${this.price}</span>`
+        cardInformation.innerHTML = `<h1>${this.title}</h1><p>${this.discription}</p><span>${this.price}</span>`
         card.appendChild(cardInformation)
 
         return card
